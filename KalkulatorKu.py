@@ -41,7 +41,7 @@ while True:
     #Jika Pilihan input 1<->2<->3<->4 maka
     if pilihan in ('1','2','3','4'):
         
-        #Memasukan angka1 ke dalam float input
+        #Memasukan angka1 dan angka2 ke dalam float input, karena penggunaan float maka hasil akan ada .0 di akhir hasil.
         angka1 = float(input("Masukan angka awal: "))
         angka2 = float(input("Masukan angka akhir: "))
         
